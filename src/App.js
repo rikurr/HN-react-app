@@ -16,6 +16,9 @@ const StyledContainer = styled.div`
 `;
 const Content = styled.div`
   display: flex;
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
 `;
 
 const App = () => {
